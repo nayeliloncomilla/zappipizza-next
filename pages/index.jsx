@@ -1,7 +1,5 @@
-export default function Home() {
-  return (
-    <div>
-      oa boris uwu
-    </div>
-  )
+import Home from '../components/screens/Home'
+
+export default function HomePage() {
+  return <Home />
 }
