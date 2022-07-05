@@ -21,6 +21,13 @@
     "sourceType": "module",
     "ecmaVersion": 2020
   },
+  "settings": {
+    "import/resolver": {
+      "jsconfig": {
+        "config": "jsconfig.json"
+      }
+    }
+  },
   "rules": {
     "semi": ["error", "never"],
     "import/extensions": "off",
