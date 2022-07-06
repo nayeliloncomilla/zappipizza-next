@@ -1,9 +1,14 @@
 import DefaultLayout from '../../layouts/DefaultLayout'
+import FeaturedPizzas from '../Home/components/FeaturedPizzas'
 
 export default function Menu() {
   return (
     <DefaultLayout>
-      <div>Menu</div>
+      <FeaturedPizzas />
+      <FeaturedPizzas />
+      <FeaturedPizzas />
+      <FeaturedPizzas />
+      <FeaturedPizzas />
     </DefaultLayout>
   )
 }

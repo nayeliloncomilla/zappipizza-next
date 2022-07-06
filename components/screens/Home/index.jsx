@@ -7,7 +7,6 @@ export default function Home() {
   return (
     <DefaultLayout>
       <DeliveryInfo />
-      <div className="w-full h-64 bg-black" />
       <FeaturedPizzas />
       <ServiceHours />
     </DefaultLayout>
