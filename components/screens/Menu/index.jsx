@@ -1,14 +1,17 @@
+import Header from '@components/common/Header'
+import PropTypes from 'prop-types'
 import DefaultLayout from '../../layouts/DefaultLayout'
-import FeaturedPizzas from '../Home/components/FeaturedPizzas'
+import PizzaGrid from './components/PizzaGrid'
 
-export default function Menu() {
+export default function Menu({ pizzas }) {
   return (
     <DefaultLayout>
-      <FeaturedPizzas />
-      <FeaturedPizzas />
-      <FeaturedPizzas />
-      <FeaturedPizzas />
-      <FeaturedPizzas />
+      <Header />
+      <PizzaGrid pizzas={pizzas} />
     </DefaultLayout>
   )
+}
+
+Menu.propTypes = {
+  pizzas: PropTypes.array.isRequired
 }

@@ -1,6 +1,13 @@
 import Image from 'next/image'
+import PropTypes from 'prop-types'
 
-export default function PizzaCard() {
+export default function PizzaCard({
+  id,
+  name,
+  ingredients,
+  price,
+  image
+}) {
   return (
     <div className="w-full text-white bg-black min-h-[380px] rounded-xl overflow-hidden flex flex-col">
       <Image
@@ -8,16 +15,24 @@ export default function PizzaCard() {
         height={50}
         width="100%"
         objectFit="cover"
-        src="https://i.imgur.com/rW7MOJF.jpg"
+        src={image}
       />
       <div className="bg-primary h-3" />
       <div className="p-4 flex flex-col flex-1 justify-between">
         <div>
-          <h3 className="text-primary font-semibold font-display text-2xl">1. Napolitana</h3>
-          <p>Tomate, Choricillo, Aceitunas.</p>
+          <h3 className="text-primary font-semibold font-display text-2xl">{id}. {name}</h3>
+          <p>{ingredients}</p>
         </div>
-        <p className="text-2xl mb-4">$7.500</p>
+        <p className="text-2xl mb-4">{price}</p>
       </div>
     </div>
   )
+}
+
+PizzaCard.propTypes = {
+  id: PropTypes.number.isRequired,
+  name: PropTypes.string.isRequired,
+  ingredients: PropTypes.string.isRequired,
+  price: PropTypes.string.isRequired,
+  image: PropTypes.string.isRequired
 }
