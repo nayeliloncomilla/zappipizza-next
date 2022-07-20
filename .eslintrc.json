@@ -40,6 +40,7 @@
     "import/no-extraneous-dependencies": "off",
     "react/jsx-props-no-spreading": "off",
     "react/forbid-prop-types": "off",
-    "linebreak-style": "off"
+    "linebreak-style": "off",
+    "react/jsx-key": "error"
   }
 }

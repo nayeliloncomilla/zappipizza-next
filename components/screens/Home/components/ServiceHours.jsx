@@ -5,7 +5,7 @@ export default function ServiceHours() {
     <div className="text-white bg-secondary" style={{ backgroundImage: `url(${bgFoodDark.src})` }}>
       <div className="container text-center flex flex-col gap-4 py-16">
         <h3 className="text-3xl mb-8">¡Conoce nuestros horarios!</h3>
-        <ul className="flex justify-between text-2xl ">
+        <ul className="text-2xl grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
           <li>
             <h6 className="font-semibold">Martes a Jueves</h6>
             <p>18:00 – 22:30 HRS.</p>

@@ -6,9 +6,10 @@ export default function PizzaGrid({ pizzas }) {
   return (
     <div className=" bg-black text-white " style={{ backgroundImage: `url(${bgFoodLight.src})` }}>
       <div className="container py-16 px-8">
-        <div className="grid grid-cols-4 gap-4">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
           {pizzas.map(item => (
             <PizzaCard
+              key={item.id}
               id={item.id}
               name={item.name}
               ingredients={item.ingredients}

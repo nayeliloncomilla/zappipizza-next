@@ -10,9 +10,10 @@ export default function FeaturedPizzas({ pizzas }) {
         <h3 className="text-3xl  text-center">
           LAS RECOMENDACIONES DE LA CASA
         </h3>
-        <div className="flex gap-4 ">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
           {pizzas.map(item => (
             <PizzaCard
+              key={item.id}
               id={item.id}
               name={item.name}
               ingredients={item.ingredients}

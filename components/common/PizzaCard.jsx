@@ -17,7 +17,7 @@ export default function PizzaCard({
         objectFit="cover"
         src={image}
       />
-      <div className="bg-primary h-3" />
+      <div className="bg-primary h-1" />
       <div className="p-4 flex flex-col flex-1 justify-between">
         <div>
           <h3 className="text-primary font-semibold font-display text-2xl">{id}. {name}</h3>
