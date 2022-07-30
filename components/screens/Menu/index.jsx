@@ -6,7 +6,7 @@ import PizzaGrid from './components/PizzaGrid'
 export default function Menu({ pizzas }) {
   return (
     <DefaultLayout>
-      <Header />
+      <Header title="Menu" />
       <PizzaGrid pizzas={pizzas} />
     </DefaultLayout>
   )

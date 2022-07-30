@@ -1,11 +1,14 @@
 import pizzaHeader from '@images/pizza-header.jpg'
+import PropTypes from 'prop-types'
 
-export default function Header() {
+export default function Header({
+  title
+}) {
   return (
     <div className="text-white bg-secondary pt-8 bg-cover" style={{ backgroundImage: `url(${pizzaHeader.src})` }}>
       <div>
         <h1 className=" bg-primary-500 w-full font-display text-6xl text-center mb-16 py-4  font-bold uppercase">
-          Menu
+          {title}
         </h1>
         <div className=" bg-black bg-opacity-50">
           <div className="container text-center flex flex-col gap-4 py-8">
@@ -17,4 +20,7 @@ export default function Header() {
       </div>
     </div>
   )
+}
+Header.propTypes = {
+  title: PropTypes.string.isRequired
 }
