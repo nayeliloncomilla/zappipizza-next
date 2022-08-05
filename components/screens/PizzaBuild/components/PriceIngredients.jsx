@@ -3,7 +3,7 @@ import PriceIngredientsItem from './PriceIngredientsItem'
 export default function PriceIngredients() {
   return (
     <div className="container text-center flex flex-col gap-4 py-16">
-      <ul className="text-2xl grid grid-cols-1 md:grid-cols-3 gap-4">
+      <ul className="text-2xl grid grid-cols-1 md:grid-cols-3 gap-6">
         <PriceIngredientsItem
           ingredients="3"
           price="$8.900"
