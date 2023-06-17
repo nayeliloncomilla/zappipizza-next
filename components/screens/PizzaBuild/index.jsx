@@ -21,7 +21,7 @@ export default function PizzaBuild() {
           <div className="flex gap-4 flex-col md:flex-row">
             <ChoiceIngredients ingredients={vegetalIngredients} title="Vegetales" price="1.000" />
             <ChoiceIngredients ingredients={meatIngredients} title="Carnes" price="1.000" />
-            <div className="flex w-full flex-col gap-2">
+            <div className="flex w-full flex-col gap-5">
               <ChoiceIngredients ingredients={sauceIngredients} title="Salsas" price="1.000" />
               <ChoiceIngredients ingredients={specialIngredients} title="Especiales" price="2.000" />
             </div>

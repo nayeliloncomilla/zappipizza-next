@@ -39,7 +39,9 @@ export async function getServerSideProps() {
 }
 
 export default function HomePage({ featuredPizzas }) {
-  return <Home featuredPizzas={featuredPizzas} />
+  return (
+    <Home featuredPizzas={featuredPizzas} />
+  )
 }
 
 HomePage.propTypes = {
