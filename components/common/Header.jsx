@@ -1,11 +1,10 @@
-import pizzaHeader from '@images/pizza-header.jpg'
 import PropTypes from 'prop-types'
 
 export default function Header({
   title
 }) {
   return (
-    <div className="text-white bg-secondary pt-8 bg-cover" style={{ backgroundImage: `url(${pizzaHeader.src})` }}>
+    <div className="text-white bg-secondary pt-8 bg-cover" style={{ backgroundImage: 'url("/images/pizza-header.jpg")' }}>
       <div>
         <h1 className=" bg-primary-500 w-full font-display text-6xl text-center mb-16 py-4  font-bold uppercase">
           {title}

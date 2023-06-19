@@ -1,13 +1,14 @@
 import PropTypes from 'prop-types'
+import formatPrice from '@utils/formatPrice'
 import IngredientImage from './IngredientImage'
 
 export default function ChoiceIngredients({ ingredients, title, price }) {
   return (
     <div className="w-full">
-      <h3 className="font-display font-bold text-3xl uppercase mb-4 ">{title} | $ {price}</h3>
+      <h3 className="font-display font-bold text-3xl uppercase mb-4 ">{title} | {formatPrice(price)}</h3>
       <div className="flex flex-col gap-3">
         {ingredients.map(ingredient => (
-          <IngredientImage key={ingredient.src} ingredient={ingredient} />
+          <IngredientImage key={ingredient.name} ingredient={ingredient} />
         ))}
       </div>
     </div>
@@ -15,6 +16,6 @@ export default function ChoiceIngredients({ ingredients, title, price }) {
 }
 ChoiceIngredients.propTypes = {
   ingredients: PropTypes.array.isRequired,
-  price: PropTypes.string.isRequired,
+  price: PropTypes.number.isRequired,
   title: PropTypes.string.isRequired
 }

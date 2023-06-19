@@ -1,8 +1,6 @@
-import bgFoodDark from '@images/bg-food-dark.png'
-
 export default function ServiceHours() {
   return (
-    <div className="text-white bg-secondary" style={{ backgroundImage: `url(${bgFoodDark.src})` }}>
+    <div className="text-white bg-secondary" style={{ backgroundImage: 'url("/images/bg-food-dark.png")' }}>
       <div className="container text-center flex flex-col gap-4 py-16">
         <h3 className="text-3xl mb-8">¡Conoce nuestros horarios!</h3>
         <ul className="text-2xl grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">

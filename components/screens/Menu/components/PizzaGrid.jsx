@@ -1,10 +1,9 @@
 import PropTypes from 'prop-types'
-import bgFoodLight from '@images/bg-food-light.png'
 import PizzaCard from '@components/common/PizzaCard'
 
 export default function PizzaGrid({ pizzas }) {
   return (
-    <div className=" bg-black text-white " style={{ backgroundImage: `url(${bgFoodLight.src})` }}>
+    <div className="bg-black text-white " style={{ backgroundImage: 'url("/images/bg-food-light.png")' }}>
       <div className="container py-16 px-8">
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
           {pizzas.map(item => (
@@ -15,6 +14,7 @@ export default function PizzaGrid({ pizzas }) {
               ingredients={item.ingredients}
               price={item.price}
               image={item.image}
+              secondary={item.group % 2 === 0}
             />
           ))}
         </div>

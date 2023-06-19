@@ -6,7 +6,9 @@ export default function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title>Zappipizza</title>
+        <title>Zappipizza – Sabor Artesanal</title>
+        <meta name="description" content="Las mejores pizzas artesanales de Pudahuel Sur" />
+        <link rel="icon" type="image/x-icon" href="/favicon.ico" />
       </Head>
       <Component {...pageProps} />
     </>
