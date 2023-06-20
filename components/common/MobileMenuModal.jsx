@@ -46,7 +46,6 @@ export default function MobileMenuModal({ closeModal, isOpen, routes }) {
                 <ul className="divide-y divide-white/30">
                   {routes.map(route => (
                     <Link
-                      as="li"
                       key={route.href}
                       href={route.href}
                       className={cn(
