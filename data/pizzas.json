@@ -11,7 +11,7 @@
   {
     "id": 2,
     "name": "Clásica",
-    "ingredients": "Tomates, Pimentón, Choricillo, Jamón.",
+    "ingredients": "Tomates, Jamón, Aceitunas.",
     "price": 8000,
     "image": "/images/pizzas/clasica.jpg",
     "group": 1
