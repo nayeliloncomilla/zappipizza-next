@@ -13,6 +13,7 @@ export default function PizzaGrid({ pizzas }) {
               name={item.name}
               ingredients={item.ingredients}
               price={item.price}
+              priceTwice={item.priceTwice}
               image={item.image}
               secondary={item.group % 2 === 0}
             />

@@ -17,6 +17,7 @@ export default function FeaturedPizzas({ pizzas }) {
               name={item.name}
               ingredients={item.ingredients}
               price={item.price}
+              priceTwice={item.priceTwice}
               image={item.image}
               secondary={idx % 2 === 0}
               priority

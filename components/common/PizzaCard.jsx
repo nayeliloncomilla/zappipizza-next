@@ -8,6 +8,7 @@ export default function PizzaCard({
   name,
   ingredients,
   price,
+  priceTwice,
   image,
   secondary,
   priority
@@ -38,7 +39,7 @@ export default function PizzaCard({
             {formatPrice(price)}
           </p>
           <p className={clsx('text-2xl font-bold', titleColor)}>
-            2x {formatPrice(price * 2 - 400)}
+            2x {formatPrice(priceTwice)}
           </p>
         </div>
       </div>
@@ -51,6 +52,7 @@ PizzaCard.propTypes = {
   name: PropTypes.string.isRequired,
   ingredients: PropTypes.string.isRequired,
   price: PropTypes.number.isRequired,
+  priceTwice: PropTypes.number.isRequired,
   image: PropTypes.string.isRequired,
   secondary: PropTypes.bool,
   priority: PropTypes.bool
