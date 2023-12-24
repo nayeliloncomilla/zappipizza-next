@@ -2,18 +2,18 @@
   "priceByQty": [
     {
       "qty": 3,
-      "price": 9500,
-      "priceTwice": 19900
+      "price": 9900,
+      "priceTwice": 20900
     },
     {
       "qty": 4,
-      "price": 10500,
-      "priceTwice": 21900
+      "price": 10900,
+      "priceTwice": 22900
     },
     {
       "qty": 5,
-      "price": 11500,
-      "priceTwice": 23900
+      "price": 11900,
+      "priceTwice": 24900
     }
   ],
   "ingredients": {

@@ -6,15 +6,15 @@ export default function ServiceHours() {
         <ul className="text-2xl grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
           <li>
             <h6 className="font-semibold">Martes a Jueves</h6>
-            <p>18:00 – 22:30 HRS.</p>
+            <p>18:30 – 23:00 HRS.</p>
           </li>
           <li>
             <h6 className="font-semibold">Viernes y Sábado </h6>
-            <p>18:00 – 23:00 HRS.</p>
+            <p>18:30 – 23:00 HRS.</p>
           </li>
           <li>
             <h6 className="font-semibold">Domingo </h6>
-            <p>18:00 – 22:00 HRS.</p>
+            <p>18:30 – 22:00 HRS.</p>
           </li>
           <li>
             <h6 className="font-semibold">Lunes </h6>
