@@ -29,7 +29,7 @@
     "ingredients": "Pepperoni",
     "price": 8500,
     "priceTwice": 16700,
-    "image": "/images/pizzas/clasica.jpg",
+    "image": "/images/pizzas/pepperoni.jpg",
     "group": 1
   },
   {
@@ -87,7 +87,7 @@
     "ingredients": "Doble Pepperoni.",
     "price": 9900,
     "priceTwice": 19500,
-    "image": "/images/pizzas/pepperoni.jpg",
+    "image": "/images/pizzas/doble-pepperoni.jpg",
     "group": 3
   },
   {
