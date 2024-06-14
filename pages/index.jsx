@@ -5,7 +5,10 @@ import Home from '../components/screens/Home'
 export async function getServerSideProps() {
   return {
     props: {
-      featuredPizzas: pizzas.filter(pizza => pizza.featured).slice(0, 4)
+      featuredPizzas: pizzas
+        .filter(pizza => pizza.featured)
+        .map((pizza, idx) => ({ ...pizza, id: idx + 1 }))
+        .slice(0, 4)
     }
   }
 }

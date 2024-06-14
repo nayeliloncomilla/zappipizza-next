@@ -20,7 +20,7 @@ MenuPage.propTypes = {
 export async function getServerSideProps() {
   return {
     props: {
-      pizzas: pizzasData
+      pizzas: pizzasData.map((pizza, idx) => ({ ...pizza, id: idx + 1 }))
     }
   }
 }

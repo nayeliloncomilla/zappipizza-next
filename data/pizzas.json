@@ -1,6 +1,5 @@
 [
   {
-    "id": 1,
     "name": "Napolitana",
     "ingredients": "Tomate, Choricillo, Aceitunas.",
     "price": 8500,
@@ -10,7 +9,6 @@
     "group": 1
   },
   {
-    "id": 2,
     "name": "Clásica",
     "ingredients": "Tomates, Jamón, Aceitunas.",
     "price": 8500,
@@ -19,16 +17,30 @@
     "group": 1
   },
   {
-    "id": 3,
-    "name": "Jamón Queso",
+    "name": "SoloQueso/Jamón",
+    "ingredients": "Doble Queso (o jamón)",
+    "price": 8500,
+    "priceTwice": 16700,
+    "image": "/images/pizzas/solo-queso.jpg",
+    "group": 1
+  },
+  {
+    "name": "Pepperoni",
+    "ingredients": "Pepperoni",
+    "price": 8500,
+    "priceTwice": 16700,
+    "image": "/images/pizzas/clasica.jpg",
+    "group": 1
+  },
+  {
+    "name": "Tradicional",
     "ingredients": "Tomates, Champiñón, Pimentón, Jamón, Aceitunas.",
     "price": 9500,
     "priceTwice": 18700,
-    "image": "/images/pizzas/jamon-queso.jpg",
+    "image": "/images/pizzas/jamon-queso.jpg" ,
     "group": 2
   },
   {
-    "id": 4,
     "name": "Vegetariana",
     "ingredients": "Tomates, Champiñón, Pimentón, Choclo, Aceitunas, Cebollín.",
     "price": 9500,
@@ -37,25 +49,6 @@
     "group": 2
   },
   {
-    "id": 5,
-    "name": "Fugazzeta",
-    "ingredients": "Cebolla Frita, Jamón.",
-    "price": 9500,
-    "priceTwice": 18700,
-    "image": "/images/pizzas/fugazzeta.jpg",
-    "group": 2
-  },
-  {
-    "id": 6,
-    "name": "Palmitos",
-    "ingredients": "Palmitos, Choclo, Aceitunas, Salsa Golf.",
-    "price": 9500,
-    "priceTwice": 18700,
-    "image": "/images/pizzas/palmitos.jpg",
-    "group": 2
-  },
-  {
-    "id": 7,
     "name": "Hawaiana",
     "ingredients": "Jamón, Piña.",
     "price": 9500,
@@ -64,7 +57,6 @@
     "group": 2
   },
   {
-    "id": 8,
     "name": "Española",
     "ingredients": "Tomates, Pimentón, Choricillo, Jamón.",
     "price": 9500,
@@ -74,7 +66,6 @@
     "group": 2
   },
   {
-    "id": 9,
     "name": "Calabrezza",
     "ingredients": "Tomates, Champiñón, Salame, Aceitunas.",
     "price": 9900,
@@ -84,7 +75,6 @@
     "group": 3
   },
   {
-    "id": 10,
     "name": "Pollo",
     "ingredients": "Tomates, Champiñón, Pimentón, Pollo, Cebollín.",
     "price": 9900,
@@ -93,8 +83,7 @@
     "group": 3
   },
   {
-    "id": 11,
-    "name": "Pepperoni",
+    "name": "Doble Pepperoni",
     "ingredients": "Doble Pepperoni.",
     "price": 9900,
     "priceTwice": 19500,
@@ -102,7 +91,6 @@
     "group": 3
   },
   {
-    "id": 12,
     "name": "Italiana",
     "ingredients": "Pepperoni, Champiñón, Salchicha, Aceitunas.",
     "price": 9900,
@@ -111,7 +99,6 @@
     "group": 3
   },
   {
-    "id": 13,
     "name": "Bacon",
     "ingredients": "Champiñón, Tocino, Jamón, Choricillo, Cebollín.",
     "price": 10900,
@@ -120,7 +107,6 @@
     "group": 4
   },
   {
-    "id": 14,
     "name": "Barbecue",
     "ingredients": "Salsa BBQ, Cebolla Frita, Tocino, Carne.",
     "price": 10900,
@@ -129,16 +115,14 @@
     "group": 4
   },
   {
-    "id": 15,
-    "name": "Chilena",
-    "ingredients": "Tomates, Cebolla Frita, Carne, Aceitunas.",
+    "name": "Todas las carnes",
+    "ingredients": "Pepperoni, Jamón, Tocino, Carne.",
     "price": 10900,
     "priceTwice": 21500,
-    "image": "/images/pizzas/chilena.jpg",
+    "image": "/images/pizzas/todas-carnes.jpg",
     "group": 4
   },
   {
-    "id": 16,
     "name": "Suprema",
     "ingredients": "Tomate, Salame, Pollo, Salchicha, Cebollín.",
     "price": 10900,
@@ -148,7 +132,6 @@
     "group": 4
   },
   {
-    "id": 17,
     "name": "Strogonoff",
     "ingredients": "Champiñón, Pimentón, Pollo, Crema, Choclo, Cebollín.",
     "price": 11900,
@@ -157,7 +140,6 @@
     "group": 5
   },
   {
-    "id": 18,
     "name": "Alemana",
     "ingredients": "Champiñón, Salame, Jamón, Tocino, Carne.",
     "price": 11900,
@@ -166,7 +148,6 @@
     "group": 5
   },
   {
-    "id": 19,
     "name": "Deluxe",
     "ingredients": "Champiñón, Pimentón, Choricillo, Tocino, Carne, Aceitunas.",
     "price": 11900,
@@ -175,7 +156,6 @@
     "group": 5
   },
   {
-    "id": 20,
     "name": "Camarón",
     "ingredients": "Camarón, Jamón, Pollo, Crema, Choclo, Cebollín.",
     "price": 11900,
